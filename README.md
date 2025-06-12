@@ -19,4 +19,4 @@ This is the list of topics for packages under org.javaturk.jp:
 * 10 - Akış Kontrolü (Flow Control)
 * 11 - Diziler (Arrays)
 * ex - Bazı uygulamalar için gerekli sınıflar (Some classes needed for some exercises)
-* game - Sayı Tahmin oyunu (NumberGuessing game)
+* game - Sayı Tahmin Oyunu (NumberGuessing game)
