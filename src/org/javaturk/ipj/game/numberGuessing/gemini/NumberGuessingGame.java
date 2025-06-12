@@ -1,7 +1,5 @@
 package org.javaturk.ipj.game.numberGuessing.gemini;
 
-import java.util.Scanner;
-
 /**
  * Gemini 2.5 Pro 12062025
  * A number guessing game where the computer tries to guess a 4-digit number
@@ -28,6 +26,9 @@ import java.util.Scanner;
  * The game will start, and you can begin playing by following the on-screen instructions.
  * I hope this code is perfect for your training session. Let me know if you have any other questions
  */
+
+import java.util.Scanner;
+
 public class NumberGuessingGame {
 
     public static void main(String[] args) {

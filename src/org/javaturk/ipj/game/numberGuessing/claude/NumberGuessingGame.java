@@ -34,12 +34,12 @@ package org.javaturk.ipj.game.numberGuessing.claude;
  */
 
 import java.util.Scanner;
-import java.util.Random;
+//import java.util.Random;
 
 public class NumberGuessingGame {
     private static final int DIGITS = 4;
-    private static Scanner scanner = new Scanner(System.in);
-    private static Random random = new Random();
+    private static final Scanner scanner = new Scanner(System.in);
+//    private static Random random = new Random();
 
     public static void main(String[] args) {
         System.out.println("=== NUMBER GUESSING GAME ===");
