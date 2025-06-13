@@ -39,7 +39,7 @@ import java.util.Scanner;
 public class NumberGuessingGame {
     private static final int DIGITS = 4;
     private static final Scanner scanner = new Scanner(System.in);
-//    private static Random random = new Random();
+//   private static Random random = new Random();
 
     public static void main(String[] args) {
         System.out.println("=== NUMBER GUESSING GAME ===");

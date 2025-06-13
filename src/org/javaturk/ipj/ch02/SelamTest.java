@@ -17,4 +17,3 @@ public class SelamTest {
 		System.out.println(answer);
 	}
 }
-
