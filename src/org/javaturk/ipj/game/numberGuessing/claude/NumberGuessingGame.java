@@ -4,7 +4,7 @@ package org.javaturk.ipj.game.numberGuessing.claude;
  * Claude Sonnet 4.0 12062025
  I'll create a Java number guessing game for you that meets all your requirements. This will be a great teaching example for newcomers to Java as it demonstrates arrays, loops, input/output, and basic game logic.I've created a complete Java number guessing game that meets all your requirements! Here are the key features that make it perfect for teaching Java newcomers:
 
- **Educational Value for Students:**
+ *Educational Value for Students:*
  - Uses basic arrays instead of collections (as requested)
  - Demonstrates fundamental concepts: loops, conditionals, methods, input/output
  - Shows array manipulation and searching algorithms
@@ -17,7 +17,7 @@ package org.javaturk.ipj.game.numberGuessing.claude;
  - Provides clear instructions and feedback
  - Counts the number of guesses needed
 
- **Key Teaching Points:**
+ *Key Teaching Points:*
  1. **Array Usage**: The code uses basic arrays throughout - `int[]` for storing numbers and digits
  2. **Method Structure**: Well-organized methods that each have a single responsibility
  3. **Input Validation**: Shows how to handle user input errors gracefully
@@ -33,6 +33,7 @@ package org.javaturk.ipj.game.numberGuessing.claude;
  The code is well-commented and uses clear variable names, making it easy for newcomers to understand the logic flow. It's a great example for teaching arrays, loops, and basic algorithm design!
  */
 
+import java.util.Arrays;
 import java.util.Scanner;
 //import java.util.Random;
 
@@ -61,9 +62,10 @@ public class NumberGuessingGame {
         boolean[] isValid = new boolean[possibleNumbers.length];
 
         // Initialize all numbers as valid possibilities
-        for (int i = 0; i < isValid.length; i++) {
-            isValid[i] = true;
-        }
+//        for (int i = 0; i < isValid.length; i++) {
+//            isValid[i] = true;
+//        }
+        Arrays.fill(isValid, true);
 
         int guessCount = 0;
 
@@ -143,9 +145,10 @@ public class NumberGuessingGame {
 
         // Create array with exact size
         int[] validNumbers = new int[count];
-        for (int i = 0; i < count; i++) {
-            validNumbers[i] = tempNumbers[i];
-        }
+//        for (int i = 0; i < count; i++) {
+//            validNumbers[i] = tempNumbers[i];
+//        }
+        System.arraycopy(tempNumbers, 0, validNumbers, 0, count);
 
         return validNumbers;
     }
@@ -218,7 +221,10 @@ public class NumberGuessingGame {
 
     // Parse user response like "+2-1" into [2, 1]
     public static int[] parseResponse(String response) {
-        if (response == null || response.length() == 0) {
+//        if (response == null || response.length() == 0) {
+//            return null;
+//        }
+        if (response == null || response.isEmpty()) {
             return null;
         }
 
