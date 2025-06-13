@@ -10,7 +10,7 @@ package org.javaturk.ipj.game.numberGuessing.claude;
  - Shows array manipulation and searching algorithms
  - Includes validation and error handling
 
- **Game Features:**
+ *Game Features:*
  - Generates all valid 4-digit numbers (no repeating digits, doesn't start with 0)
  - Uses intelligent guessing by eliminating impossible numbers after each response
  - Parses player responses in the format you specified (+/- notation)
@@ -18,13 +18,13 @@ package org.javaturk.ipj.game.numberGuessing.claude;
  - Counts the number of guesses needed
 
  *Key Teaching Points:*
- 1. **Array Usage**: The code uses basic arrays throughout - `int[]` for storing numbers and digits
- 2. **Method Structure**: Well-organized methods that each have a single responsibility
- 3. **Input Validation**: Shows how to handle user input errors gracefully
- 4. **Algorithm Logic**: Demonstrates how to systematically eliminate possibilities
- 5. **String Processing**: Shows basic string parsing without using advanced collections
+ 1. *Array Usage*: The code uses basic arrays throughout - `int[]` for storing numbers and digits
+ 2. *Method Structure*: Well-organized methods that each have a single responsibility
+ 3. *Input Validation*: Shows how to handle user input errors gracefully
+ 4. *Algorithm Logic*: Demonstrates how to systematically eliminate possibilities
+ 5. *String Processing*: Shows basic string parsing without using advanced collections
 
- **How the Game Works:**
+ *How the Game Works:*
  1. Computer generates all valid 4-digit numbers (there are 4,536 of them)
  2. Makes intelligent guesses by eliminating numbers that don't match previous responses
  3. Player responds with +/- notation (e.g., "+2-1" means 2 correct positions, 1 wrong position)
