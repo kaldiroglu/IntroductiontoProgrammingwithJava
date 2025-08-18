@@ -11,6 +11,6 @@ void main() {
 void saySalam(){
     Selam object = new Selam();
     int limit = random.nextInt(100);
-    for(int i = 0; i < limit; i++)
-        System.out.println(STR."\{i} _ \{object.greet("Nalan")}");
+    for(int i = 0; i < limit; i++){}
+//        System.out.println(STR."\{i} _ \{object.greet("Nalan")}");
 }
