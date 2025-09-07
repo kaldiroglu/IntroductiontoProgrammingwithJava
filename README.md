@@ -1,11 +1,11 @@
 Bu Java ile Programlamaya Giriş dersi için kaynak koddur.
 Daha fazla yardım ve öneri için bana akin@javaturk.org adresinden ulaşabilrisiniz.
 
-This is source code for Introduction to Programming with Java course. 
-Please reach me at akin@javaturk.org for further assistance and suggestions.
+(This is source code for Introduction to Programming with Java course. 
+Please reach me at akin@javaturk.org for further assistance and suggestions.)
 
-Bu, org.javaturk.ijp altındaki paketler için konuların listesidir:
-This is the list of topics for packages under org.javaturk.jp:
+Bu, org.javaturk.ipj altındaki paketler için konuların listesidir:
+(This is the list of topics for packages under org.javaturk.ipj:)
 
 * 01 - Java Geliştirme Ortamı (Java Development Environment)
 * 02 - Java'ya Giriş (Introduction to Java)
