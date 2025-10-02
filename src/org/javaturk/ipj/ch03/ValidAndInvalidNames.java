@@ -11,7 +11,7 @@ public class ValidAndInvalidNames {
 //		int kaybol-buradan;
 //		int true;
 //		int true?;
-//		int _;  // Compiler error after Java 9
+//		int _;  // Compiler error after Java 9. With Java 25 it can be used for an unnamed variable with initialization
 
     }
 }

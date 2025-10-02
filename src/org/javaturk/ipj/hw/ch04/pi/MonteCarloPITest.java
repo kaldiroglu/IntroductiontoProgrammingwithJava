@@ -1,4 +1,4 @@
-package org.javaturk.ipj.ch04.pi;
+package org.javaturk.ipj.hw.ch04.pi;
 
 import java.util.Scanner;
 

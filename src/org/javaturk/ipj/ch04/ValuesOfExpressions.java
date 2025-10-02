@@ -14,7 +14,7 @@ public class ValuesOfExpressions {
 //		int k = 2_147_483_648; // Max limit of an int number in Java is 2_147_483_647
 		int k = 2_147_483_647 + 1; // Max limit of an int number in Java is 2_147_483_647
 //		int k = 2_147_483_647; // Max limit of an int number in Java
-
+        System.out.println(k);
 		int i = k + 1; // -2147483648
 		System.out.println(i);
 

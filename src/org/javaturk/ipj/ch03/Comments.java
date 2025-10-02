@@ -25,6 +25,8 @@ public class Comments {
 
 		/*
 		 * That's a comment block!
+		 * Second line
+		 * Third line
 		 */
 		return 2 * x; // Just multiply x by 2!
 	}
