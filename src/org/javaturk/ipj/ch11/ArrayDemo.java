@@ -18,9 +18,9 @@ public class ArrayDemo {
 	static boolean[] flags = { true, false };
 
 	public static void main(String[] args) {
-//		initializeArrays();
+		initializeArrays();
 //		printArrays();
-		problems();
+//		problems();
 	}
 
 	public static void initializeArrays() {

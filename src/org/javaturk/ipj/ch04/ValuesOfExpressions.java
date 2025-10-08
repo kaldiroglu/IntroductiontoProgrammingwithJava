@@ -8,7 +8,7 @@ package org.javaturk.ipj.ch04;
  * @see <a href="http://www.selsoft.com.tr">http://www.selsoft.com.tr</a>
  *      </p>
  */
-public class ValuesOfExpressions {
+ public class ValuesOfExpressions {
 
 	public static void main(String[] args) {
 //		int k = 2_147_483_648; // Max limit of an int number in Java is 2_147_483_647

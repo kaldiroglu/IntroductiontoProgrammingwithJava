@@ -16,8 +16,8 @@ public class CarTest {
 
 		System.out.println("When the car stands still.");
 		car1.make = "Mercedes";
-		car1.model = "C200";
-		car1.year = "2023";
+		car1.model = "GLA";
+		car1.year = "2025";
 		car1.distance = 0;
 		car1.speed = 0;
 		String info = car1.getInfo();
@@ -37,7 +37,7 @@ public class CarTest {
 		Car car2 = new Car();
 		car2.make = "BMW";
 		car2.model = "i8";
-		car2.year = "2017";
+		car2.year = "2018";
 		car2.distance = 120_000;
 		car2.speed = 160;
 		System.out.println(car2.getInfo());
@@ -51,7 +51,7 @@ public class CarTest {
 		System.out.println(car2.getInfo());
 
 		Car car3 = null;
-		
+
 		car3 = new Car();
 		System.out.println(car3.getInfo());
 	}

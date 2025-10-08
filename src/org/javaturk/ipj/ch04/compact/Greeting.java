@@ -1,5 +1,5 @@
 
-import java.util.Random;
+//import java.util.Random;
 import org.javaturk.ipj.ch04.compact.Selam;
 import org.javaturk.ipj.ch04.compact.Hello;
 
@@ -7,7 +7,7 @@ Random random = new Random();
 
 String start = "*** Greeting Example ***";
 
- void  main() {
+ public void main() {
 	System.out.println(start);
 	saySalam();
     sayHello();

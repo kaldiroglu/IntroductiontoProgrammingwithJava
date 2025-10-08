@@ -7,9 +7,9 @@ public class Hello{
     public String sayHello(String whom) {
         String greeting;
         if (whom != "")
-            greeting = "Selam " + whom + " :)";
+            greeting = "Hello " + whom + " :)";
         else
-            greeting = "Selam " + world + " :)";
+            greeting = "Hello " + world + " :)";
         return greeting;
     }
 }
