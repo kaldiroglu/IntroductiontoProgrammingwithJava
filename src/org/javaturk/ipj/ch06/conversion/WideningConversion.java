@@ -19,10 +19,10 @@ public class WideningConversion {
 		long l;
 		float f = 3.14f;
 		double d;
-		/*
-		 * c = b; // compile error: possible loss of precision c = s; // compile
-		 * error: possible loss of precision i = d; // compile error: possible
-		 * loss of precision
+		/* Narrowing Conversions
+		  c = b; // compile error: possible loss of precision
+		  c = s; // compile error: possible loss of precision
+		  i = d; // compile error: possible loss of precision
 		 */
 
 		System.out.println("\n ***   No-loss of Precision   ***\n");
@@ -35,6 +35,7 @@ public class WideningConversion {
 		i = c;
 		System.out.printf("i:%d c:%c \n", i, c);
 
+        i = 2_147_483_647;
 		f = i;
 		System.out.printf("f:%f i:%d \n", f, i);
 

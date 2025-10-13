@@ -49,7 +49,7 @@ public class CarReferences {
 		System.out.println("\ncar2:   " + car2.getInfo());
 		System.out.println("tmpCar: " + tmpCar.getInfo());
 
-		car1 = null;
+//		car1 = null;
 //		System.out.println(car1.getInfo());
 //		car1.accelerate(150);
 

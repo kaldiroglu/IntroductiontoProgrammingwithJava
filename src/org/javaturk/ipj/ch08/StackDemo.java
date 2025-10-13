@@ -24,7 +24,6 @@ public class StackDemo {
 		printStackTrace(4);
 		g(true);
 		i++;
-
 	}
 
 	public static void g(boolean b) {

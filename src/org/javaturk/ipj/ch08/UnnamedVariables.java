@@ -22,6 +22,8 @@ public class UnnamedVariables {
         int _________________ = 10;
         //int _________________ = 5;
 //        int ________X________ = 10;
+        System.out.println(_________________);
+
 
         String _ = "";
         String _ = "java";

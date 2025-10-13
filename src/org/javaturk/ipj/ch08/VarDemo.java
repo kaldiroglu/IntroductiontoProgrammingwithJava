@@ -40,6 +40,7 @@ public class VarDemo {
 		intArray[1] = 2;
 		intArray[2] = 3;
 		System.out.print("Array: ");
+
 		for (var t : intArray)
 			System.out.print(t + " ");
 

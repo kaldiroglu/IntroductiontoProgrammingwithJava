@@ -21,6 +21,7 @@ public class CarTest {
 		car1.year = "2025";
 		car1.distance = 0;
 		car1.speed = 0;
+
 		System.out.println(car1.getInfo());
 
 		System.out.println("\nWhen the car moves.");
