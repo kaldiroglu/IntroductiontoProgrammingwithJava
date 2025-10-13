@@ -18,13 +18,6 @@ public class UnnamedVariables {
         }
         System.out.println("Total: " + total);
 
-        // That's awful!
-        int _________________ = 10;
-        //int _________________ = 5;
-//        int ________X________ = 10;
-        System.out.println(_________________);
-
-
         String _ = "";
         String _ = "java";
     }
