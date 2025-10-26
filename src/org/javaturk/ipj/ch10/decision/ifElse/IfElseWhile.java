@@ -1,4 +1,4 @@
-package org.javaturk.ipj.ch10.decision;
+package org.javaturk.ipj.ch10.decision.ifElse;
 
 public class IfElseWhile {
 

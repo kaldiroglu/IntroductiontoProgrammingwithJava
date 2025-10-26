@@ -1,4 +1,4 @@
-package org.javaturk.ipj.ch10.decision;
+package org.javaturk.ipj.ch10.decision.switchCase;
 
 /**
  * @author <a href="mailto:akin@javaturk.org">Akin Kaldiroglu</a>
