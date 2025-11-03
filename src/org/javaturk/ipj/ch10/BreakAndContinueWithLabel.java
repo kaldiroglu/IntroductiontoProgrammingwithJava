@@ -28,6 +28,7 @@ public class BreakAndContinueWithLabel {
                     System.out.println("Found " + searchFor + " at " + i + ", " + j);
                     break here;
                 }
+//                System.out.println("Naber abi");
             }
         }
 

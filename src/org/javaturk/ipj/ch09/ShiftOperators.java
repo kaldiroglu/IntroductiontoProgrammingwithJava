@@ -14,9 +14,9 @@ import static org.javaturk.ipj.ch09.BitwiseLogicalOperators.getBinary;
 public class ShiftOperators {
 
 	public static void main(String[] args) {
-		makePositiveShifts();
+//		makePositiveShifts();
 //		makeNegativeShifts();
-//		makeUnsignedShifts();
+		makeUnsignedShifts();
 //		shiftCircular();
 	}
 
@@ -64,7 +64,7 @@ public class ShiftOperators {
 		
 		i = -64; 
 		System.out.println("i:        " + i + "    Binary: " + BitwiseLogicalOperators.getBinary(i));
-		i = i >>> 5; 
+		i = i >>> 1;
 		System.out.println("i >>> 5:  " + i + "    Binary: " + BitwiseLogicalOperators.getBinary(i));
 	}
 	

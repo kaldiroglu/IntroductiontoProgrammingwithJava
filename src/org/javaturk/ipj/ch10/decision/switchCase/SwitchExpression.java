@@ -67,7 +67,7 @@ public class SwitchExpression {
 		int day = stdin.nextInt();
 
 		System.out.print("Number of letters: ");
-		System.out.println(switch (day) {
+		System.out.println("Number of letters: " + switch (day) {
 			case 1, 5, 7 -> 6;
 			case 2 -> "1";
 			case 4, 6 -> 8;
@@ -75,6 +75,18 @@ public class SwitchExpression {
 			//default -> throw new Exception();
             default -> -1;
 		});
+
+        // That's problem!
+//        int ii = 6;
+        var outcome = switch (day) {
+            case 1, 5, 7 -> 6;
+            case 2 -> "7";
+            case 4, 6 -> 8;
+            case 3 -> 9;
+            //default -> throw new Exception();
+            default -> -1;
+        };
+        System.out.println(outcome);
 	}
 
 	/**
@@ -126,9 +138,10 @@ public class SwitchExpression {
             	String s = "January";
                 yield s;
             }
-            case 2 -> {
-                yield "February";
-            }
+            case 2 -> "February";
+//            {
+//                yield "February";
+//            }
             case 3 -> {
                 yield "March";
             }

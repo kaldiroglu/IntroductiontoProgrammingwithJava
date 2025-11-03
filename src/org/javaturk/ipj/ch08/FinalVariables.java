@@ -11,8 +11,11 @@ import org.javaturk.ipj.ch07.car.Car;
  *      </p>  
  */
 public class FinalVariables {
+	final static String name = "Akin";
 
 	public static void main(String[] args) {
+
+//		name = "Kaldiroglu";
 
 		final int i = 8;
 		System.out.println(i);
@@ -43,10 +46,14 @@ public class FinalVariables {
 		
 		final Car c1 = new Car();
 		//c1 = new Car();
+		c1.make = "Porche";
 		Car c3 = c1;
 
 		final Car c2; // Blank final
 		c2 = new Car();
 //		c2 = new Car();
+
+//		int const;
+//		const int u = 5;
 	}
 }

@@ -16,7 +16,7 @@ public class IfElseDemo {
      */
     public static void main(String[] args) {
     	
-        int score = 77;
+        int score = 57;
         
         char grade;
 

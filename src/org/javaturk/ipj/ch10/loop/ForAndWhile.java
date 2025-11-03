@@ -23,7 +23,7 @@ public class ForAndWhile {
 
         r = Math.random();
         System.out.println("for without i++");
-        for (int i = 0; i >= 0; ) { // Remove i++
+        for (int i = 0; i >= 0;) { // Remove i++
             r = Math.random();
             System.out.println(r);
             if (r >= 0.8d)

@@ -14,6 +14,8 @@ public class AssignmentOperator {
 		boolean b1, b2;
 		b1 = (b2 = true);
 		System.out.println(b1);
+		b1 = (b2 = (i == 5));
+		System.out.println(b1);
 		
 		// Compound assignments
 		i = i + 3; // i şimdi 8

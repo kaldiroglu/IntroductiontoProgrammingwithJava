@@ -12,18 +12,29 @@ package org.javaturk.ipj.ch10.loop;
 public class ForDemo {
 
     public static void main(String[] args) {
-//        simpleFor();
+//        simpleFor1();
 //        multiplicationTable();
-//        fibonacciNumbers(40);
+//        fibonacciNumbers(100);
 		others();
     }
 
-    static void simpleFor() {
+    static void simpleFor1() {
         int sum = 0;
-        for (int i = 1; i <= 100; i++) {
+        for (int i = 0; i <= 100; i++) {
             sum += i;
             System.out.println(i + " " + sum);
         }
+        System.out.println("Sum: " + sum);
+    }
+
+    static void simpleFor2() {
+        int sum = 0;
+        int i = 0;
+        for (; i <= 100; i++) {
+            sum += i;
+            System.out.println(i + " " + sum);
+        }
+        System.out.println("i: " + i);
         System.out.println("Sum: " + sum);
     }
 
@@ -39,18 +50,18 @@ public class ForDemo {
         }
     }
 
-    static void fibonacciNumbers(int count) {
+    static void fibonacciNumbers(long count) {
         System.out.println("\nFibonacci Numbers");
 
-        int f0 = 1;
-        int f1 = 1;
-        int fibonacciNumber;
+        long f0 = 1;
+        long f1 = 1;
+        long fibonacciNumber;
 
-        System.out.format("%8d", f0);
-        System.out.format("%8d", f1);
+        System.out.format("%20d", f0);
+        System.out.format("%20d", f1);
         for (int i = 3; i <= count; i++) {
             fibonacciNumber = f0 + f1;
-            System.out.format("%12d", fibonacciNumber);
+            System.out.format("%20d", fibonacciNumber);
             f0 = f1;
             f1 = fibonacciNumber;
             if (i % 10 == 0)
@@ -65,11 +76,11 @@ public class ForDemo {
             System.out.println("i= " + i + " j= " + j);
         }
 
-        int i;
-        int j;
-        for (i = 1, j = i + 10; (i < 5 & j > 2); i++, j = i * 2) {
-            System.out.println("i= " + i + " j= " + j);
-        }
+//        int i;
+//        int j;
+//        for (i = 1, j = i + 10; (i < 5 & j > 2); i++, j = i * 2) {
+//            System.out.println("i= " + i + " j= " + j);
+//        }
 
         int ii;
         long jj;
@@ -77,7 +88,7 @@ public class ForDemo {
             System.out.println("ii= " + ii + " jj= " + jj);
         }
 
-//		That's error!
+//		That's error! Two counter types are defined.
 //		for (int i = 1, long j = i + 10; (i < 5 & j > 2); i++, j = i * 2) {
 //			System.out.println("i= " + i + " j= " + j);
 //		}

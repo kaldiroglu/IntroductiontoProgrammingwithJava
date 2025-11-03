@@ -42,13 +42,13 @@ public class UnreachableCode {
 //
 ////		k = 2;
 //		// Unreachable code if break does not exist.
-//		while (true) {
-//			System.out.println("Selam");
-//			k++;
-//			if(k > 5)
-//				break;
-//		}
-//		int ii = 5; // Unreachable code without break.
+		while (true) {
+			System.out.println("Selam");
+			k++;
+			if(k > 5)
+				break;
+		}
+		int ii = 5; // Unreachable code without break.
 //
 //
 ////		That's not unreachable code

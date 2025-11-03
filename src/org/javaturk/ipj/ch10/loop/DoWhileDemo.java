@@ -13,10 +13,13 @@ public class DoWhileDemo {
     public static void main(String[] args) {
     	
         double r = 0;
+        int count = 0;
 
-        do {	// First comes block
+        do {	// First comes to the block
             r = Math.random();
-            System.out.println("in do-while: " + r);
+            count++;
+            System.out.println(count + ": " + "in do-while: " + r);
         }while(r < 0.8d);	// Then condition
+        System.out.println("After while, count: " + count);
     }
 }

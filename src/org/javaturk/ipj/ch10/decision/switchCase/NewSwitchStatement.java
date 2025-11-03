@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class NewSwitchStatement {
 
     public static void main(String[] args) {
-//        switchCaseWithBreakStatement();
-//        switchCaseWithArrowStatement1();
-        switchCaseWithArrowStatement2();
+        switchCaseWithBreakStatement();
+        switchCaseWithArrowStatement1();
+//        switchCaseWithArrowStatement2();
     }
 
     /**

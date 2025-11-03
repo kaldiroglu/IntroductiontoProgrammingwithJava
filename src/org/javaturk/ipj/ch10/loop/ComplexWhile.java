@@ -21,7 +21,7 @@ public class ComplexWhile {
 
 		System.out.println("\nThird while");
 		
-		while (b = getBoolean()) {
+		while (getBoolean()) {
 			System.out.println("i: " + i + " j: " + j);
 			i = (int) (10 * Math.random());
 			j = (int) (10 * Math.random());

@@ -36,30 +36,37 @@ public class OperatorPrecedence {
 		System.out.println(++u + u--); // 4 + 4, u = 3
 		System.out.println("u:" + u);
 
-		System.out.println();
+		System.out.println("-------------");
 
 		int w = 5;
-		System.out.println("w: " + (++w + w--));
+		System.out.println("1- w: " + (++w + w--));
+		System.out.println("w: " + w);
 
 		w = 3;
-		System.out.println("w: " + (++w + w--));
+		System.out.println("2- w: " + (++w + w--));
+		System.out.println("w: " + w);
 
 		w = 3;
-		System.out.println("w: " + (w-- + ++w));
+		System.out.println("3- w: " + (w-- + ++w));
+		System.out.println("w: " + w);
 
-		System.out.println();
+		System.out.println("-------------");
 
 		int i = 5;
 //		int k = ++i++;
 		int k = ++i + i++;
 		System.out.println("i: " + i + " k:" + k);
 
+		System.out.println("-------------");
+
 		int x = 10, y = 7, z = 3;
 		System.out.println("x*y%z: " + x * y % z);
 		System.out.println("x*y%z: " + x * (y % z));
 		boolean b1 = false, b2 = true, b3 = true;
 		boolean bool = b1 & b2 | b3;
-		System.out.println("bool: " + bool);
+		System.out.println("\nbool: " + bool);
+
+		System.out.println("-------------");
 
 		// The + operator is left associative
 		System.out.println("Java" + 1 + 6); // All strings
