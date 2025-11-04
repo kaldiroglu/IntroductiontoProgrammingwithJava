@@ -30,7 +30,7 @@ public class MainDemo {
 
 		// Parse age to get int value
 		int intAge = Integer.parseInt(args[2]);
-		int yearOfBirth = 2023 - intAge;
+		int yearOfBirth = 2025 - intAge;
 		System.out.println(yearOfBirth + " yılında doğdun.");
 	}
 }

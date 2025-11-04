@@ -20,7 +20,8 @@ public class ReverseArray {
         int cursor = 0;
         for (int i = length - 1; i >= 0; i--) {
             reverseArray[cursor] = array[i];
-            cursor++;
+//            System.out.println("Cursor: " + cursor);
+//            cursor++;
             //reverseArray[length -1 - i] = array[i];
         }
         return reverseArray;

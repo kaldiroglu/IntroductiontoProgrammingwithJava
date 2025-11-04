@@ -40,8 +40,9 @@ public class ArraysDemo {
 //		demo.copy();
 //		demo.copyRange();
 //		demo.fill(11);
+//		demo.fillByIndex(5, 3, 8);
 //		demo.sort();
-		demo.search(5);
+//		demo.search(5);
 	}
 
 	public void copy() {
@@ -70,6 +71,13 @@ public class ArraysDemo {
 		System.out.print("\nFilling an array with " + key + ": ");
 		// Filling an array
 		Arrays.fill(intArray, key);
+		print(intArray);
+	}
+
+	public void fillByIndex(int key, int i, int j) {
+		System.out.print("\nFilling an array with " + key + ": ");
+		// Filling an array
+		Arrays.fill(intArray, i, j, key);
 		print(intArray);
 	}
 

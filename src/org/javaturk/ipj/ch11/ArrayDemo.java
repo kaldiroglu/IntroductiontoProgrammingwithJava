@@ -19,8 +19,8 @@ public class ArrayDemo {
 
 	public static void main(String[] args) {
 		initializeArrays();
-//		printArrays();
-//		problems();
+		printArrays();
+		problems();
 	}
 
 	public static void initializeArrays() {
@@ -45,7 +45,6 @@ public class ArrayDemo {
 	}
 
 	public static void printArrays() {
-
 		System.out.println("Printing arrays");
 
 		for (int i = 0; i < intArray.length; i++)
@@ -72,11 +71,12 @@ public class ArrayDemo {
 
 //		Negative index causes ArrayIndexOutOfBoundsException
 //		Pizza pizza1 = pizzas[-2];
+//		ArrayIndexOutOfBoundsException
 //		Pizza pizza2 = pizzas[4];
 
 //		long index can't be used
 //		long l = 5;
-//		Pizza pizza = pizzas[l]; 
+//		Pizza pizza = pizzas[l];
 
 		// This is OK
 //		short s = 2;
@@ -84,9 +84,9 @@ public class ArrayDemo {
 //		System.out.println(pizza2.name);
 
 		// Following is a problem: i <= pizzas.length
-		Pizza pizza1 = null;
+		Pizza pizza3 = null;
 		for (int i = 0; i < pizzas.length; i++)
-			pizza1 = pizzas[i];
+			pizza3 = pizzas[i];
 	}
 }
 
