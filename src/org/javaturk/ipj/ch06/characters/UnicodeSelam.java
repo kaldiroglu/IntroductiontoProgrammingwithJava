@@ -22,7 +22,7 @@ public class UnicodeSelam {
 		char ch4 = '\u4e16';
 		char ch5 = '\u754c';
 
-		System.out.println("Japonca da Selam Dünya: \t" + ch1 + ch2 + ch3 + ch4 + ch5);
+		System.out.println("Japonca'da Selam Dünya: \t" + ch1 + ch2 + ch3 + ch4 + ch5);
 
 		String selamInArabic = "\u0633\u0644\u0627\u0645";
 		System.out.println("Arapça Selam: \t\t\t" + selamInArabic); // Notice \t

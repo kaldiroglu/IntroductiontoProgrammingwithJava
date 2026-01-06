@@ -61,7 +61,7 @@ public class FizzBuzz {
 		String[] fizzbuzz = new String[k];
 		// First fill the array with numbers up to k
 		for (int i = 0; i < k; i++)
-			fizzbuzz[i] = new Integer(i + 1).toString();
+			fizzbuzz[i] = Integer.toString(i + 1);
 
 		for (int i = 1; i <= iteratonLimit; i++) {
 			// For multiples of 3
