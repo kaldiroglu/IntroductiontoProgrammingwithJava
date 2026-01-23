@@ -12,13 +12,16 @@ public class Escapes {
 
 	public static void main(String[] args) {
 
-		System.out.println("Backspace: " + "I \blove " + '\b' + "Java");
+		System.out.println("Without backspaces: " + "I love " + "Java");
+		System.out.println("With backspaces: " + "I \blove " + '\b' + "Java");
 		System.out.println("This is a tab\t and this is another tab\t.");
 		System.out.println("Linefeed: " + '\n');
 		System.out.println("Form feed: " + '\f');
-		System.out.println("This is a carriage" + '\r' + "return.");
+		System.out.println("This is a carriage return " + '\r' + "See?");
 		System.out.println("Apostrophe-quote: " + '\'');
 		System.out.println("Quotation mark: " + "\"Ali'nin\"");
 		System.out.println("Backslash: " + '\\');
+
+		long i = 9355032854873L;
 	}
 }

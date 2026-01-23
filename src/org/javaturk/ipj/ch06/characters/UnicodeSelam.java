@@ -29,5 +29,12 @@ public class UnicodeSelam {
 		
 		String selamInHebrew = "\u05e9\u05dc\u05d5\u05dd";
 		System.out.println("Ibranice Selam: \t\t" + selamInHebrew);
+
+		// https://unicode.org/emoji/charts/full-emoji-list.html
+		String emoji1 = "😂"; // Unicode U+1F602
+		System.out.println(emoji1);
+
+		String emoji2 = "\uD83D\uDE02"; // Surrogate pair for U+1F602
+		System.out.println(emoji2);
 	}
 }
