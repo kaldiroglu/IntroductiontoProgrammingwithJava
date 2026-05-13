@@ -16,21 +16,20 @@ public class BinaryOctalHexadecimalIntegers {
 		int sayi2 = 0132;
 		int sayi3 = 0x5a;
 		
-		long sayi4 = 0b1010L;
-		byte sayi5 = 017;
-		short sayi6 = 0x5a;
+		long sayi4 = 0B1111L;
+		byte sayi5 = 077;
+		short sayi6 = 0XFF;
 
 		System.out.println(sayi1 + " " + sayi2 + " " + sayi3);
 		System.out.println(sayi4 + " " + sayi5 + " " + sayi6);
 		
 		int sayi7 = sayi1 + sayi2 + sayi3;
-		int sayi8 = sayi1 * sayi2 * sayi3;
+		long sayi8 = sayi4 * sayi5 * sayi6; // Sum is a long number
 //		
-		System.out.println(sayi7);
-		System.out.println(sayi8);
+		System.out.println("sayi7: " + sayi7);
+		System.out.println("sayi8: " + sayi8);
 //		
-//		Integer anInt = Integer.decode("8");
-//		
-//		System.out.println(anInt);
+		Integer anInt = Integer.decode("0x5A");
+		System.out.println(anInt);
 	}
 }

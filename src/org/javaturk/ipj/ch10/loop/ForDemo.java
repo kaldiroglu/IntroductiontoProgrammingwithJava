@@ -13,9 +13,10 @@ public class ForDemo {
 
     public static void main(String[] args) {
 //        simpleFor1();
+//        simpleFor1();
+        simpleFor3();
 //        multiplicationTable();
-//        fibonacciNumbers(100);
-		others();
+        others();
     }
 
     static void simpleFor1() {
@@ -38,6 +39,18 @@ public class ForDemo {
         System.out.println("Sum: " + sum);
     }
 
+    static void simpleFor3() {
+        int sum = 0;
+        int i = 0;
+        for (; i <= 100; ) {
+            sum += i;
+            System.out.println(i + " " + sum);
+            i++;
+        }
+        System.out.println("i: " + i);
+        System.out.println("Sum: " + sum);
+    }
+
 
     static void multiplicationTable() {
         System.out.println("\nMultiplication Table");
@@ -47,25 +60,6 @@ public class ForDemo {
                 System.out.format("%4d", i * j);
             }
             System.out.println();
-        }
-    }
-
-    static void fibonacciNumbers(long count) {
-        System.out.println("\nFibonacci Numbers");
-
-        long f0 = 1;
-        long f1 = 1;
-        long fibonacciNumber;
-
-        System.out.format("%20d", f0);
-        System.out.format("%20d", f1);
-        for (int i = 3; i <= count; i++) {
-            fibonacciNumber = f0 + f1;
-            System.out.format("%20d", fibonacciNumber);
-            f0 = f1;
-            f1 = fibonacciNumber;
-            if (i % 10 == 0)
-                System.out.println();
         }
     }
 
