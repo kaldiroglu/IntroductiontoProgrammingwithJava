@@ -8,5 +8,11 @@ public class HypotenuseCalculator {
 
         double hypotenuse = Math.sqrt(x*x + y*y);
         System.out.println("Hypotenuse: " + hypotenuse);
+        x = 9;
+        y = 21;
+
+
+        hypotenuse = Math.sqrt(x*x + y*y);
+        System.out.println("Hypotenuse: " + hypotenuse);
     }
 }

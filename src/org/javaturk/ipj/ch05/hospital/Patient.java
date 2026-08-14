@@ -7,6 +7,8 @@ public class Patient {
     char sex;
     int age;
     String[] illnesses;
+    Doctor doctor;
+
 
     // Behaviors or operations
     public void takeMedication(Prescription prescription) {

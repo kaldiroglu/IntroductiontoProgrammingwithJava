@@ -1,14 +1,6 @@
 
 package org.javaturk.ipj.ch06.conversion;
 
-/**
- * @author <a href="mailto:akin@javaturk.org">Akin Kaldiroglu</a>
- *         <p>
- *         Daha cok bilgi icin lutfen aşağıdaki linkleri ziyaret edin.
- * @see <a href="http://www.javaturk.org">http://www.javaturk.org</a>
- * @see <a href="http://www.selsoft.com.tr">http://www.selsoft.com.tr</a>
- *      </p>  
- */
 public class NarrowingConversion {
 
 	public static void main(String args[]) {
@@ -46,9 +38,13 @@ public class NarrowingConversion {
 		i= 65;
 		c = (char) i;
 		System.out.println("i: " + i + "\t\t\tc: " + c);
+
+		i= 65;
+		c = (char) -i; // 65,536 is added to make it positive
+		System.out.println("c: " + (int)c + "\t\tc: " + c);
 		
 		i= -65471; // add 65536 to -65471, result is 65 and then char value would be
 		c = (char) i;
-		System.out.printf("c:%c i:%d \n", c, i);
+		System.out.printf("c:%c  i:%d \n", c, i);
 	}
 }

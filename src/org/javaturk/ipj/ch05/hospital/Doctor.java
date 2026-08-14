@@ -4,6 +4,7 @@ public class Doctor {
     String id;
     String name;
     String field;
+    Patient[] patients;
 
     public Prescription inspect(Patient patient){
         Prescription prescription = null;

@@ -5,4 +5,5 @@ import java.util.Date;
 public class Receipt {
     long id;
     Date date;
+    Patient patient;
 }

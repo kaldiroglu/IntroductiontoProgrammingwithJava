@@ -1,6 +1,6 @@
 package org.javaturk.ipj.ch06.conversion;
 
-public class Power {
+public class PowerDemo {
 
     public static void main(String[] args) {
         double d = Math.pow(2, 10);
