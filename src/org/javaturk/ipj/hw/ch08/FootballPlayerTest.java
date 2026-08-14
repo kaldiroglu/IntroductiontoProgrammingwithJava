@@ -1,6 +1,6 @@
 package org.javaturk.ipj.hw.ch08;
 
-public class FootballPlayerTest {
+ class FootballPlayerTest {
     /*
     public static void main(String[] args) {
         FootballPlayer alex = new FootballPlayer();
