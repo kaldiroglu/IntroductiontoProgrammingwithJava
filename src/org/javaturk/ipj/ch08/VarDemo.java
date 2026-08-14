@@ -1,8 +1,6 @@
 package org.javaturk.ipj.ch08;
 
 import java.util.Date;
-
-import org.javaturk.ipj.ch07.car.Car;
  
 public class VarDemo {
 
